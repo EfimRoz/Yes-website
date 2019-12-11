@@ -1,0 +1,12 @@
+h1 {
+    color: #434343;
+}
+.books {
+    display: flex;
+    
+}
+.books .book {
+    width: 74px;
+    height: 55px;
+    background-color: blueviolet;
+}
