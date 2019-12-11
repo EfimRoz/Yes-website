@@ -23,6 +23,8 @@ html {
     display: flex;
     flex-direction: column;
     order: 1;
+    max-width: 70%; /* for IE11 support */
+
 }
 .list h2{
     color: #434343;
@@ -34,6 +36,7 @@ html {
 .list ul li {
     width: 40%;
     margin-left: 4%;
+    margin-top: 10px;
 }
 .join-us {
     margin: 50px 0;
@@ -67,12 +70,14 @@ html {
 .books {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 50px 0;
 }
 .books .book {
     width: 74px;
     height: 55px;
     background-color: blueviolet;
+    margin-top: 10px;
 }
 
 .advert {
@@ -88,6 +93,7 @@ html {
     }
     .features .list {
         order: 0;
+        
     }
     .features .example.big {
         display: none;
@@ -97,5 +103,15 @@ html {
     }
     .list-items {
         display: flex;
+    }
+    .join-us .buttons{ 
+        flex-direction: column;
+        align-items: center;
+    }
+    .join-us button:first-of-type {
+        margin: 10px 0;
+    }
+    .join-us button {
+        width: 50%;
     }
   }
