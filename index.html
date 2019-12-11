@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
 
   <title>Yes website</title>
 
@@ -12,51 +13,60 @@
 
 <body>
   <header>
-    <img src="assets/header.png" alt="join us">
+    <img class="title" src="assets/header.png" alt="join us">
   </header>
-  <section>
-    <article>
-      <h2>קטלוג ספרים דיגיטליים לכולם עם אלפי ספרים לקריאה מהסמארטפון ומהטאבלט</h1>
-      <ul>
-        <li>קטלוג ספרים זמין 24/7</li>
-        <li>קוראים בקצב שלכם ללא הגבלת זמן</li>
-        <li>לבחור ספרים, להוריד ולקרוא מבלי לגעת בחבילת הגלישה שלכם</li>
-        <li>לקחת בהשאלה 2 ספרים בחודש ללא תוספת תשלום</li>
-        <li>מבחר ספרים עדכני</li>
-        <li>הספרים איתכם בכל זמן ובכל מקום</li>
-        <li>טסים לחו"ל?
-          לא צריך לפחד מ-overweight
-        </li>
-        <li>גודל פונט בהתאמה אישית</li>
-      </ul>
-      <img src="assets/banner.png" alt="books in phone">        
-    </article>
-    <article>
-      <h2>חודש ראשון עלינו</h2>
-      <h3>ואח"כ רק 9.90 בחודש</h3>
-      <button>לקטלוג הספרים המלא</button>
-      <button>להורדת האפליקציה</button>
-    </article>
-  </section>
-  <section class="books">
-    <article class="book">74*55</article>
-    <article class="book"></article>
-    <article class="book"></article>
-    <article class="book"></article>
-    <article class="book"></article>
-    <article class="book"></article>
-    <article class="book"></article>
-    <article class="book"></article>
-  </section>
-  <footer>
-    <iframe width="560" height="315" 
-      src="https://www.youtube.com/embed/DI7z-lYj9yM" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; 
-      encrypted-media; gyroscope; 
-      picture-in-picture" allowfullscreen>
-    </iframe>
-  </footer>
+  <main>
+    <section>
+      <article class="features">
+        <div class="list">
+          <h2>קטלוג ספרים דיגיטליים לכולם עם אלפי ספרים לקריאה מהסמארטפון ומהטאבלט</h1>
+          <div class="list-items">
+            <ul>
+              <li>קטלוג ספרים זמין 24/7</li>
+              <li>קוראים בקצב שלכם ללא הגבלת זמן</li>
+              <li>לבחור ספרים, להוריד ולקרוא מבלי לגעת בחבילת הגלישה שלכם</li>
+              <li>לקחת בהשאלה 2 ספרים בחודש ללא תוספת תשלום</li>
+              <li>מבחר ספרים עדכני</li>
+              <li>הספרים איתכם בכל זמן ובכל מקום</li>
+              <li>טסים לחו"ל?
+                לא צריך לפחד מ-overweight
+              </li>
+              <li>גודל פונט בהתאמה אישית</li>
+            </ul>
+            <img class="example small" src="assets/banner.png" alt="books in phone">
+          </div>
+        </div>
+        <img class="example big" src="assets/banner.png" alt="books in phone">
+      </article>
+      <article class="join-us">
+        <h2>חודש ראשון עלינו</h2>
+        <h3>ואח"כ רק 9.90 בחודש</h3>
+        <div class="buttons">
+          <button>לקטלוג הספרים המלא</button>
+          <button>להורדת האפליקציה</button>
+        </div>
+      </article>
+    </section>
+    <section class="books">
+      <article class="book">74*55</article>
+      <article class="book"></article>
+      <article class="book"></article>
+      <article class="book"></article>
+      <article class="book"></article>
+      <article class="book"></article>
+      <article class="book"></article>
+      <article class="book"></article>
+    </section>
+    <section class="advert">
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/DI7z-lYj9yM" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; 
+        encrypted-media; gyroscope; 
+        picture-in-picture" allowfullscreen>
+      </iframe>
+    </section>
+  </main>
   <!-- <script src="js/scripts.js"></script> -->
 </body>
 </html>
